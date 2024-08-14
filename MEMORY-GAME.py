@@ -8,8 +8,8 @@ class MemoryGame:
         self.master = master
         self.master.title("Memory Game")
 
-        self.colors = {'A': 'red', 'B': 'blue', 'C': 'green', 'D': 'yellow', 'E': 'purple', 'F': 'orange'}
-        self.deck = ['A', 'A', 'B', 'B', 'C', 'C', 'D', 'D', 'E', 'E', 'F', 'F', 'A', 'A', 'B', 'B']
+        self.colors = {'A': 'red', 'B': 'blue', 'C': 'green', 'D': 'yellow', 'E': 'purple', 'F': 'orange', 'G': 'gray', 'H': 'white'}
+        self.deck = ['A', 'A', 'B', 'B', 'C', 'C', 'D', 'D', 'E', 'E', 'F', 'F', 'G', 'G', 'H', 'H']
         self.board = ['*'] * 16
         self.first_guess, self.pairs_found, self.points = None, 0, 0
         self.create_widgets()
