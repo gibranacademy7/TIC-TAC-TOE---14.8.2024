@@ -8,8 +8,8 @@ class MemoryGame:
         self.master = master
         self.master.title("Memory Game")
 
-        self.colors = dict(zip('ABCDEF', ['red', 'blue', 'green', 'yellow', 'purple', 'orange']))
-        self.deck = list('AABBCCDDEEFFAABB')
+        self.colors = dict(zip('ABCDEFGH', ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'gray', 'white']))
+        self.deck = list('AABBCCDDEEFFGGHH')
         self.board = ['*'] * 16
         self.first_guess, self.pairs_found, self.points = None, 0, 0
         self.create_widgets()
